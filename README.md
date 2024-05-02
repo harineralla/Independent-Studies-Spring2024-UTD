@@ -36,4 +36,8 @@ The following shows the Maximum scores achieved by Bugsplainer based on 2 datase
 | ROUGE      | 58.18                   | 63.41                           |   
 | BERT Score | 84.44                   | 90.24                           |   
 
-[Optional: You can add a brief explanation or analysis of the results here, highlighting any significant differences or insights.]
+Based on the results, it is evident that Bugsplainer's performance is slightly better on its own non-security bug test data compared to the security bugs extracted from PySecDB. The higher scores across all three evaluation metrics for the non-security bug dataset indicate that Bugsplainer generates more accurate and relevant fix explanations for non-security bugs.
+
+However, it's important to note that Bugsplainer still achieves reasonably high scores on the security bug dataset, demonstrating its capability to handle security vulnerabilities as well. The differences in scores between the two datasets are not substantial, suggesting that Bugsplainer can be an effective tool for generating fix explanations, regardless of whether the bug is security-related or not.
+
+These findings highlight the versatility of Bugsplainer and its potential for adoption in various software development and maintenance scenarios, including enhancing the vulnerability detection and remediation processes.
