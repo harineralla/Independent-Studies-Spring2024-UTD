@@ -30,11 +30,19 @@ The comparison is conducted using the following standard evaluation metrics:
 ### Results
 The following shows the Maximum scores achieved by Bugsplainer based on 2 datasets. 
 
-| Metric     | Security Bugs (PySecDB) | Non-Security Bugs (Bugsplainer) | 
+| Metric     | Security Bugs (PySecDB) | Non-Security Bugs (Bugsplainer) |   
 |------------|-------------------------|---------------------------------|
 | BLEU       | 48.27                   | 57.14                           |    
 | ROUGE      | 58.18                   | 63.41                           |   
 | BERT Score | 84.44                   | 90.24                           |   
+
+
+The following shows the Average scores achieved by Bugsplainer based on 2 datasets.
+| Metric     | Security Bugs (PySecDB) | Non-Security Bugs (Bugsplainer) |   
+|------------|-------------------------|---------------------------------|
+| BLEU       | 5.19                    | 23.20                           |    
+| ROUGE      | 6.93                    | 28.59                           |   
+| BERT Score | 81.63                   | 85.15                           |
 
 Based on the results, it is evident that Bugsplainer's performance is slightly better on its own non-security bug test data compared to the security bugs extracted from PySecDB. The higher scores across all three evaluation metrics for the non-security bug dataset indicate that Bugsplainer generates more accurate and relevant fix explanations for non-security bugs.
 
